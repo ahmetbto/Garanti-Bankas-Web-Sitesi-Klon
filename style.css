@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    width: 100%;
+    background-color:#F6F6F6;
+    height: 32px;
+    
+}
+.container{
+
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 32px;
+
+}
+.header .container>a{
+    
+margin-right: 10px;
+color:#B1B1C0 ;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 13px;
+text-decoration: none;
+line-height: 32px;
+border-right: 1px solid rgb(214, 204, 204);
+padding-right: 11px;
+padding-left: 5px;
+display: inline-block;
+padding-top: 2px;
+font-weight: 500;
+}
+.header .container .firsatlar{
+    line-height: 32px;
+    padding: 0;
+    border-right: 1px solid rgb(214, 204, 204);
+ 
+    
+    }
+.header .container .firsatlar a{
+    margin-right: 10px;
+    color:#03030c ;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 32px;
+font-weight: 500;
+    font-weight: bold;
+    display: inline-block;
+
+    
+    }
+
+.header .container .firsatlar i{
+color: #98CC52;
+    font-size: 22px;
+    margin-right: 3px;
+  margin-top: 3px;
+    }
+
+    .logo-alani{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 270px;
+        margin-top: 17px;
+        height: 76px;
+    }
+    .kurumsal-alan{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .kurumsal-alan .top a{
+      margin-right: 20px;
+      background-color: #2FA8AC;
+      padding: 7px;
+      text-decoration: none;
+      color: white;
+      border-radius: 5px;
+      width: 80px;
+      text-align: center;
+      display: inline-block;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      font-weight: 500;
+}
+.kurumsal-alan .top a:hover{
+    background-color: #7FBF35;
+}
+.kurumsal-alan .bottom{
+    margin-top: 10px;
+
+}
+.kurumsal-alan .bottom a{
+font-size: 14px;
+margin-right: 10px;
+color: #279791;
+text-decoration: none;
+    
+}
+.kurumsal-alan .bottom a:hover{
+ 
+    text-decoration: underline;
+        
+    }
+.kurumsal-alan .top a:last-child{
+   background-color: #103667;
+        
+    }
+    .kurumsal-alan .top a:last-child:hover {
+        background-color: #7FBF35;
+    }
+
+    .menu-alani{
+        height: 48px;
+        background-color: #8BBD48;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: 1px 2px 1px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+}
+.menu-alani .menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.menu-alani .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    line-height: 5px;
+    margin-top: -10px;
+    
+    
+}
+.menu-alani .menu ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    list-style: none;
+    margin-right: 0px;
+    height: 48px;
+    text-align: center;
+  
+    display: block;
+    padding-left: 20px;
+  
+    
+}
+.menu-alani .menu ul li:hover{
+    background-color: white;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+
+}
+.menu-alani .menu ul li:hover a {
+   
+   color: black;
+   
+    
+}
+
+
+.menu-alani .menu ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    margin-right: 20px; 
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+}
+i{
+    margin-left: 10px;
+  
+    
+}
+.ara-alani{
+    width: 220px;
+    height: 33px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: white;
+    line-height: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    margin-top: 6px;
+    padding-left: 10px;
+}
+.ara-box{
+    border: none;
+    width: 170px;
+    padding: 5px;
+    background: transparent;
+    outline: none;
+}
+
+.ara-alani i{
+    font-size: 20px;
+    color: gray;
+  
+    margin-top: -8px;
+    margin-right: 3px;
+}
+
+
+.slider-alani {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  
+
+}
+.slider-alani img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.content button{
+    position: absolute;
+    top:250px;
+    left:35px;
+}
+
+.content button{
+   display: block;
+   margin-top: -10px;
+   width: 120px;
+   height: 40px;
+   background-color: #8BBD48;
+   color: peachpuff;
+   font-weight: bold;
+   outline: none;
+}
+.content button:hover{
+background-color: #98CC52;
+cursor: pointer;
+ }
+ .alt-menu-alani{
+height: 60px;
+border: 1px solid gainsboro;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: stretch;
+ }
+ .alt-menu-alani a{
+    height: 40px;
+    padding: 10px;
+       
+     }
