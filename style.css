@@ -228,7 +228,7 @@ i{
     font-size: 20px;
     color: gray;
   
-    margin-top: -8px;
+    margin-top: 8px;
     margin-right: 3px;
 }
 
@@ -267,17 +267,23 @@ i{
    margin-top: -10px;
    width: 120px;
    height: 40px;
-   background-color: #8BBD48;
+   background-color: #2FA8AC;
    color: peachpuff;
    font-weight: bold;
    outline: none;
+   border: none;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
 }
 .content button:hover{
 background-color: #98CC52;
 cursor: pointer;
  }
  .alt-menu-alani{
-height: 60px;
+height: 65px;
 border: 1px solid gainsboro;
 display: flex;
 flex-direction: row;
@@ -287,5 +293,19 @@ align-content: stretch;
  .alt-menu-alani a{
     height: 40px;
     padding: 10px;
-       
+            background-color: white;
+            width: calc(100vw/4);
+            border-right: 1px solid whitesmoke;
+            display: block;
+            text-align: center;
+            padding-top: 15px;
+            color:  #98CC52;
+            text-decoration: none;
+            font-weight: 500;
      }
+     .alt-menu-alani a:hover{
+        height: 40px;
+   
+                background-color: whitesmoke;
+             
+         }
