@@ -1,7 +1,7 @@
 var resimler=[
-    {slide:"images/1.jpg",baslik:"Mali Danışmanlık Hizmetleri",aciklama:"Fordizayn Danışmanlık"},
-    {slide:"images/2.png",baslik:"İhtiyacınız Olduğu Yerde",aciklama:"Biz Her Zaman Yanınızdayız"},
-    {slide:"images/3.png",baslik:"İnsan Kaynakları Yönetim Danışmanlığı",aciklama:"İK Yönetim Danışmanlığı"},
+    {slide:"images/1.jpg"},
+    {slide:"images/2.png"},
+    {slide:"images/3.png"},
  
     ];
     var index=0;
