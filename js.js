@@ -1,7 +1,7 @@
 var resimler=[
-    {slide:"images/3.png"},
-    {slide:"images/2.png"},
-    {slide:"images/3.png"},
+    {slide:"images/1.png"},
+    {slide:"images/1.png"},
+    {slide:"images/1.png"},
  
     ];
     var index=0;
