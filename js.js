@@ -1,5 +1,5 @@
 var resimler=[
-    {slide:"images/1.jpg"},
+    {slide:"images/3.jpg"},
     {slide:"images/2.png"},
     {slide:"images/3.png"},
  
